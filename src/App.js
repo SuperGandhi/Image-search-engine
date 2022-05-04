@@ -1,7 +1,8 @@
 import { Formik, Form, Field} from "formik";
 import { useState } from "react";
 import "./header.css"
-
+import "./content.css"
+import "./article.css"
 const App=()=> {
   const [photos, setPhotos] = useState([])
   const open = url => window.open(url)
